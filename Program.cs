@@ -1,8 +1,8 @@
 ﻿int num1, num2, num3, max;
 System.Console.WriteLine("Enter three numbers, via Inter: ");
-num1 = Convert.ToInt32(Console.ReadLine());
-num2 = Convert.ToInt32(Console.ReadLine());
-num3 = Convert.ToInt32(Console.ReadLine());
+num1 = Int32.Parse(Console.ReadLine());
+num2 = Int32.Parse(Console.ReadLine());
+num3 = Int32.Parse(Console.ReadLine());
 
 max = num1;
 
